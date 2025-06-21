@@ -2,6 +2,8 @@ body{
     display: flex;
     justify-content:  center;
     align-items:  center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 90%);
 }
 
 #calculator {
@@ -38,9 +40,21 @@ button {
 }
 
 button:hover {
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 40%);
 }
 
 button:active {
-    background-color: hsl(0, 0%, 60%);
+    background-color: hsl(0, 0%, 50%);
+}
+
+.op-btn {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.op-btn:hover {
+  background-color: hsl(39, 100%, 60%);
+}
+
+.op-btn:active {
+  background-color: hsl(39, 100%, 70%);
 }
